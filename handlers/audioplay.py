@@ -4,11 +4,10 @@ from os import path
 import converter
 from callsmusic import callsmusic, queues
 from config import (
-    AUD_IMG,
+    ALIVE_IMG,
     BOT_USERNAME,
     DURATION_LIMIT,
     GROUP_SUPPORT,
-    QUE_IMG,
     UPDATES_CHANNEL,
 )
 from handlers.play import convert_seconds
@@ -20,10 +19,10 @@ from pytgcalls.types.input_stream import InputStream
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 
-@Client.on_message(command(["stream", f"stream@{BOT_USERNAME}"]) & other_filters)
-async def stream(_, message: Message):
+@Client.on_message(command(["ghost", f"ghost@{BOT_USERNAME}"]) & other_filters)
+async def ghost(_, message: Message):
     costumer = message.from_user.mention
-    lel = await message.reply_text("🔥 **𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙽𝙶 𝚃𝙾 𝙳𝙰𝚁𝙺 𝚂𝙴𝚁𝚅𝙴𝚁𝚂**")
+    lel = await message.reply_text("🔥 **༎⃝💔𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐈𝐍𝐆 𝐓𝐎 𝐆𝐇𝐎𝐒𝐓 𝐒𝐄𝐑𝐕𝐄𝐑𝐒༎⃝➤**")
 
     keyboard = InlineKeyboardMarkup(
         [
@@ -61,7 +60,7 @@ async def stream(_, message: Message):
     if chat_id in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
-            photo=f"{QUE_IMG}",
+            photo=f"{ALIVE_IMG}",
             caption=f"💡 **𝚃𝚁𝙰𝙲𝙺 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝚀𝚄𝙴𝚄𝙴 »** `{position}`\n\n🏷 **𝙽𝙰𝙼𝙴 ✘** {title[:50]}\n⏱ **Duration ✘** `{duration}`\n🎧 **𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙱𝚈 ✘** {costumer}",
             reply_markup=keyboard,
         )
@@ -75,7 +74,7 @@ async def stream(_, message: Message):
             ),
         )
         await message.reply_photo(
-            photo=f"{AUD_IMG}",
+            photo=f"{ALIVE_IMG}",
             caption=f"🏷 **𝙽𝙰𝙼𝙴 ✘** {title[:50]}\n⏱ **𝙳𝚄𝚁𝙰𝚃𝙸𝙾𝙽 ✘** `{duration}`\n💡 **𝚂𝚃𝙰𝚃𝚄𝚂 ✘** `𝙿𝙻𝙰𝚈𝙸𝙽𝙶`\n"
             + f"🎧 **𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙱𝚈 ✘** {costumer}",
             reply_markup=keyboard,
