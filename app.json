@@ -34,14 +34,14 @@
             "value": "mongodb+srv://DARKAMAN:DARKAMAN@cluster0.snqhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
         },
         "LOG_CHANNEL": {
-            "description": "create a private channel and get the channel id (give the channel username/link to bot @username_to_id_bot and get the channel id), add your bot as admin to the channel too",
+            "description": "channel id leave if u don't have",
             "required": true,
-            "value": ""
+            "value": "-123456789"
         },
         "BOT_USERNAME": {
             "description": "fill with your bot username without @",
             "required": true,
-            "value": "veezmusicbot"
+            "value": "BOT_USERNAME"
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
