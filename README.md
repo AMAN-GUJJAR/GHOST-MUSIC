@@ -102,3 +102,7 @@ python3 main.py # run the bot.
                           
 <a href="https://t.me/darkamansupport"><img src="https://img.shields.io/badge/𝙳𝙰𝚁𝙺𝙰𝙼𝙰𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃%20-golden.svg?logo=Telegram"></a> <a href="https://t.me/darkamanchannel"><img src="https://img.shields.io/badge/𝙳𝙰𝚁𝙺 𝙰𝙼𝙰𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻%20-blue.svg?logo=Telegram"></a>
 
+## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚄
+ꜰᴏʀ ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ ᴍᴀᴋᴇ [Necessary Variables Here](https://github.com/AMAN-GUJJAR/GHOST-MUSIC), ᴜ ʜᴀᴠᴇ ᴛᴏ ꜰɪʟʟ.
+
+[![ghost+ᴅᴇᴘʟᴏʏ+ᴏɴ+ʀᴀɪʟᴡᴀʏ](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AMAN-GUJJAR/GHOST-MUSIC&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,ALIVE_NAME,BG_IMAGE ,BOT_NAME,ASSISTANT_NAME,DATABASE_URL,LOG_CHANNEL,GROUP_SUPPORT,OWNER_ID,OWNER_NAME,PMPERMIT,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
