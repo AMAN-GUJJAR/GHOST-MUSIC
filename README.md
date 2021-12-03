@@ -69,7 +69,7 @@
 
 ## 🚀 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙾 𝙷𝙴𝚁𝚄𝙺𝙾
 
-[![𝙶𝙷𝙾𝚂𝚃 𝙼𝚄𝚂𝙸𝙲](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fdarkaman6%2FGHOST-X-MUSIC)
+[![𝙶𝙷𝙾𝚂𝚃 𝙼𝚄𝚂𝙸𝙲](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FAMAN-GUJJAR%2FGHOST-MUSIC)
 
 -------------------------------------------------
 
