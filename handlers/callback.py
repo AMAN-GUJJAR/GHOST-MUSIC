@@ -80,7 +80,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 /play (song name) - play song from youtube
 /alive (alive) - alive command
-/stream (reply to audio) - play song using audio file
+/ghost (reply to audio) - play song using audio file
 /playlist - show the list song in queue
 /song (song name) - download song from youtube
 /search (video name) - search video from youtube detailed
@@ -419,6 +419,7 @@ async def cmdsyntax(_, query: CallbackQuery):
         f"""**༎⃝🥀𝐂𝐌𝐃 𝐒𝐘𝐍𝐓𝐀𝐗༎⃝➤** to play music on **Voice Chat:**
 
 • `/play (query)` - for playing music directly via youtube
+• `/ghost (query)` - play song using audio file
 ⚡ __𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 {BOT_NAME}__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("༎⃝💖𝐁𝐀𝐂𝐊༎⃝➤", callback_data="cmdhome")]]
