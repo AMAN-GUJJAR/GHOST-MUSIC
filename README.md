@@ -105,4 +105,4 @@ python3 main.py # run the bot.
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚄
 ꜰᴏʀ ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ ᴍᴀᴋᴇ [Necessary Variables Here](https://github.com/AMAN-GUJJAR/GHOST-MUSIC), ᴜ ʜᴀᴠᴇ ᴛᴏ ꜰɪʟʟ.
 
-[![ghost+ᴅᴇᴘʟᴏʏ+ᴏɴ+ʀᴀɪʟᴡᴀʏ](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AMAN-GUJJAR/GHOST-MUSIC&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,ALIVE_NAME,BG_IMAGE ,BOT_NAME,ASSISTANT_NAME,DATABASE_URL,LOG_CHANNEL,GROUP_SUPPORT,OWNER_ID,OWNER_NAME,PMPERMIT,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
+[![ghost+ᴅᴇᴘʟᴏʏ+ᴏɴ+ʀᴀɪʟᴡᴀʏ](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AMAN-GUJJAR/GHOST-MUSIC&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,ALIVE_NAME,BG_IMAGE,BOT_NAME,ASSISTANT_NAME,DATABASE_URL,LOG_CHANNEL,GROUP_SUPPORT,OWNER_ID,OWNER_NAME,PMPERMIT,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
